@@ -1,38 +1,257 @@
-.App {
-  text-align: center;
+.logo img{
+width: 60px;
+height: 60px;
+}
+.text a{
+text-decoration: none;
+color: #5F5C6D;
+margin-right: 10px;
+}
+header{
+display: flex;
+align-items: center;
+gap: 10px;
+<<<<<<< HEAD
+box-shadow: 2px 2px 2px 2px silver;
+background-color: rgba(235, 163, 75, 0.901);
+=======
+box-shadow: 3px 3px 3px 3px silver;
+>>>>>>> d3b234a0f47eef5f865eb0b9962b020b7135f893
+}
+.prof{
+    display: flex;
+    align-items: center;
+    margin: 10px;
+}
+.prof2{
+position: relative;
+left: 1195px;
+bottom: 25px;
+}
+.post{
+    position: relative;
+    left: 450px;
+}
+.devise{
+position: relative;
+left: 100px;
+}
+.devise2{
+position: relative;
+left: 1199px;
+bottom: 24px;
+}
+.text{
+    margin-left: 100px;
+}
+footer{
+display: flex;
+align-items: center;
+box-shadow: 2px -2px 2px 2px silver;
+background-color: rgba(235, 163, 75, 0.901);
+}
+footer a{
+text-decoration: none;
+color: #5F5C6D;
+}
+.friends{
+display: flex;
+flex-direction: column;
+
+}
+.friends a{
+text-decoration: none;
+color: #5F5C6D;
+}
+.links{
+display: flex;
+gap: 20px;
+}
+.friends img{
+width: 100px;
+height: 100px;
+border-radius: 100%;
+}
+.chat {
+display: flex;
+align-items: center;
+gap: 10px;
+}
+.shapka img{
+width: 100%;
+height: 200px;
+}
+.ava img{
+border-radius: 100%;
+}
+.email p{
+color: rgb(110, 106, 106);
+}
+.btn button{
+background-color: black;
+color: white;
+border-radius: 5px;
+width: 70px;
+height: 30px;
+}
+.btn{
+display: flex;
+justify-content: end;
+}
+footer p{
+    color: #5F5C6D;
+}
+.but1{
+background-color: rgb(246, 16, 4);
+width: 95px;
+height: 45px;
+border-radius: 10%;
+color: white;
+border-color: rgb(246, 16, 4);
+font-size: 18px;
+margin: 10px 0;
+}
+.but2{
+    background-color: rgb(58, 187, 11);
+    width: 95px;
+    height: 45px;
+    border-radius: 10%;
+    color: white;
+    border-color: rgb(58, 187, 11);
+    font-size: 18px;
+   
+}
+.image{
+display: flex;
+flex-direction: column;
+align-items: center;
+box-shadow: 3px 3px 3px 3px rgb(0, 0, 0);
+margin :  25px auto;
+width: 40%;
+position: relative;
+
+}
+.del{
+    width: 50px;
+    height: 50px;
+    position: absolute;
+    bottom: 5px;
+    left: 5px;
+    cursor: pointer;
+    transition: 0.7s;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+
+
+.del:hover {
+    box-shadow: 3px 3px 3px 3px rgb(0, 0, 0);
+    
+}
+.form-post{
+display: flex;
+flex-direction: column;
+justify-content: space-between;
+align-items: center;
+height: 230px;
+width: 250px;
+background-color: rgba(235, 163, 75, 0.901);
+margin: 15px;
+border-radius: 20px;
+box-shadow: 1px 1px 1px 1px rgb(0, 0, 0);
+}
+.form-input input,.form-input textarea{
+border-radius: 25px;
+}
+.form-post button{
+width: 100px;
+height: 40px;
+background-color: whitesmoke;
+border-radius: 20px;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+button:hover{
+    box-shadow: 2px 2px 2px 2px rgb(0, 0, 0);
+}
+.nik{
+    -webkit-animation: ChColor 3s infinite;
+}
+@keyframes ChColor{
+    0%{
+        color: cornsilk;
+    }
+20%{
+    color: rgb(63, 235, 29);
+}
+40%{
+    color: rgb(36, 201, 226);
+}
+60%{
+    color: rgb(162, 32, 233);
+}
+80%{
+    color: rgb(86, 0, 0);
+}
+100%{
+    color: rgb(225, 18, 91);
+}
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+@media(max-width:480px){
+h1{
+  font-size: 20px;
+  text-align: center;  
+}
+.image{
+    width: 350px;
+}
+.del{
+    width: 25px;
+    height: 25px;
+}
+.but1{
+    width: 65px;
+    height: 30px;
+    font-size: 10px;
+}
+.but2{
+    width: 65px;
+    height: 30px;
+    font-size: 10px;
+}
+.form-post{
+    height: 160px;
+    width: 180px;
+}
+.form-input input,.form-input textarea{
+   width: 120px; 
+   height: 25px;
+   margin: 3px;
+}
+.form-post button{
+    width: 120px; 
+   height: 25px;
+}
+header{
+    display: flex;
+    flex-direction: column;
+
+}
+header .texth{
+    margin-right: 70px;
+}
+.ava img{
+    width: 150px;
+    height: 150px;
+    margin-top: 40px;
+}
+.nik h1{
+    margin-right: 1500px;
+}
+.text h1{
+    position: relative;
+    left: 50px;
+    bottom:190px;
+}
 }
 
-.App-link {
-  color: #61dafb;
-}
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
-}
