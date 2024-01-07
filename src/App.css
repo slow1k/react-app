@@ -11,12 +11,9 @@ header{
 display: flex;
 align-items: center;
 gap: 10px;
-<<<<<<< HEAD
 box-shadow: 2px 2px 2px 2px silver;
 background-color: rgba(235, 163, 75, 0.901);
-=======
 box-shadow: 3px 3px 3px 3px silver;
->>>>>>> d3b234a0f47eef5f865eb0b9962b020b7135f893
 }
 .prof{
     display: flex;
